@@ -1,0 +1,4 @@
+CREATE DATABASE store1;
+USE store1;
+CREATE TABLE register(id int primary key auto_increment, name varchar(255), password varchar(255), email varchar(255), sex varchar(100),country varchar(255));
+SELECT *FROM register;
